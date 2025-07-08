@@ -1,0 +1,26 @@
+.inputWrapper {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.inputField {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  font-family: inherit;
+
+  &:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+  }
+
+  &.error {
+    border-color: #d93025;
+    box-shadow: 0 0 0 3px rgba(217, 48, 37, 0.25);
+  }
+}

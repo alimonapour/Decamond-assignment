@@ -1,0 +1,45 @@
+.authContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 1rem;
+  background: linear-gradient(135deg, #ece9e6, #ffffff);
+}
+
+.authForm {
+  background-color: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+
+  @media (max-width: 480px) {
+    padding: 2rem;
+  }
+
+  .title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 2rem;
+  }
+
+  .errorMessage {
+    color: #d93025;
+    font-size: 0.875rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    text-align: right;
+  }
+}
