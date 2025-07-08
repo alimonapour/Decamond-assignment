@@ -6,8 +6,6 @@ authentication flow, from a login page with validation to a protected dashboard
 page, with a focus on code quality, reusability, and modern front-end practices.
 The user interface is in Persian and styled for a right-to-left (RTL) layout.
 
-![Login Page Screenshot](https://placehold.co/600x400/EFEFEF/333333?text=Login+Page+Screenshot)
-![Dashboard Screenshot](https://placehold.co/600x400/EFEFEF/333333?text=Dashboard+Screenshot)
 
 ---
 
@@ -61,7 +59,7 @@ machine.
 1.  **Clone the repository:**
 
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    git clone [https://github.com/alimonapour/Decamond-assignment.git](https://github.com/alimonapour/Decamond-assignment.git)
     cd your-repo-name
     ```
 
@@ -83,23 +81,6 @@ machine.
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 result. The application will automatically redirect you to the `/auth` page.
 
----
-
-## 📁 Folder Structure
-
-The project follows the Next.js App Router structure, with a clear separation of
-concerns.
-
-. ├── app/ │ ├── auth/ # Login page route │ │ ├── auth.module.scss │ │ └──
-page.tsx │ ├── dashboard/ # Dashboard page route │ │ ├── dashboard.module.scss │
-│ └── page.tsx │ ├── globals.scss # Global styles │ ├── layout.tsx # Root layout
-│ ├── page.module.scss # Styles for the root page │ └── page.tsx # Root page
-(handles redirection) ├── components/ │ ├── Button/ │ │ ├── Button.module.scss │
-│ └── Button.tsx │ └── Input/ │ ├── Input.module.scss │ └── Input.tsx ├── types/
-│ └── api.ts # TypeScript types for API responses └── utils/ └── validation.ts #
-Validation utility functions
-
----
 
 ## 👤 Author
 
